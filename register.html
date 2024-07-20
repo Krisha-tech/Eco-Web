@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>REGISTARATION PAGE</title>
+     <link rel="stylesheet" type="text/css" href="register.css">
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body style="display: flex; justify-content: center; align-items: center;">
+        <from method= POST  action="register.php">
+            
+    <div class="containor3">
+            <h1>REGISTER</h1>
+            <form action="">
+               
+                <div class="inputbox">
+                    <label for="useraname">Useraname</label>
+                    <input type="text" name="username" id="useraname" autocomplete="off" required>
+                </div>
+                
+                <div class="inputbox">
+                    <label for="password">Password</label>
+                    <input type="text" name="password" id="password" autocomplete="off" required>
+                </div>
+               
+                <div class="inputbox">
+                    <label for="eamil">Email</label>
+                    <input type="text" name="email" id="email" autocomplete="off" required>
+                </div>
+                
+
+    <div class="select-menu">
+        <label for="eamil">User Type</label>
+
+        <div class="select-btn">
+            <span class="sBtn-text">Select your option</span>
+            <i class="bx bx-chevron-down"></i>
+        </div>
+
+        <ul class="options">
+            <li class="option">
+                <span class="option-text">user</span>
+            </li>
+
+
+            <li class="option">
+                  <span class="option-text">field officer</span>
+            </li>
+        </ul>
+    </div>       
+     
+        <button type="submit" value= "submit" class="btn">REGISTER</button>
+    </div>
+    <p>i have already account? <a href="loginpage.css">Login</a></p>
+            </from>
+            <script src="register.js"></script>   
+    </body>
+</html>

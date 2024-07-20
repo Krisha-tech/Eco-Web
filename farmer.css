@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background: darkslategray;
+  }
+
+
+  .navbar{
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    position: fixed;
+    margin-top: 30px;
+    margin-left: 10%;
+    color: white;
+    font-size: 36px;
+    font-weight: 800;
+  }
+
+.menu{
+    width: 400px;
+    float: right;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: black;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #fff;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: darkorange;
+    border: 2px solid;
+    margin-top: -13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  /* Style the form container */
+  form {
+    margin-top: 10vh;
+  background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 2000px;
+    margin-bottom: 40vh;
+  }
+  
+  /* Style the headings */
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style form labels */
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  /* Style textarea for the question */
+  textarea {
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style the submit button on hover */
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Media query for responsiveness */
+  @media screen and (max-width: 600px) {
+    form {
+        max-width: 90%;
+    }
+  }
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: antiquewhite;
+  padding: 50px;
+  font-size: 20px;
+}
+
+.opt{
+  margin-top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.option{
+    align-items: center;
+}
+.option a{
+    padding: 20px 40px;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+}
+  
+
+.footerv{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:#10182F;
+  height: auto;
+  width: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: -20vh;
+  color: white;
+}
+.footercontent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footercontent h3{
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 10px;
+  margin-top: 20px;
+}
+.footercontent p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 15px;
+  font-size: 12px;
+  color: white;
+}
+.social{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0 30px 0;
+}
+.social li{
+  margin: 0 10px;
+}
+.social a{
+  text-decoration: none;
+  color: white;
+}
+.social a i{
+  font-size: 18px;
+  transition: color 0.4s ease; 
+}
+.social a:hover i{
+  color: gray;
+}
+.footerbottom{
+
+  background:#10182F;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+.footerbottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  color: white;
+}
+.footerbottom span{
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
